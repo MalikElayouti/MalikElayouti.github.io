@@ -29,3 +29,21 @@ ul {
 .hobbies li:nth-child(1) {
     color: darkgreen
 }
+
+/* remove bullets*/
+ul {
+    list-style-type: none;
+}
+
+/* remove underline from links */
+a {
+    text-decoration: none;
+}
+
+/* change the backgeround color of the links and focus state */
+a:hover, 
+a:focus{
+    background-color: lightblue;
+    color: aqua
+}
+
