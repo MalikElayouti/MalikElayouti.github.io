@@ -1,0 +1,56 @@
+/* this is a css comment */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #041052;
+}
+header, footer {
+    background-color: #041052;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* dot means malik elayouti class */
+section.Malik Elayouti {
+    color: blue
+}
+
+.hobbies {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+.hobbies li:nith-child(odd) {
+    background-color: teal
+}
+
+/* id means gentleman id */
+#Gentleman {
+    box-shadow: 0 0 2px 1px black;
+
+    /* remove bullets from nav list */
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+/* remove underline from nav links and add background and border */
+nav a {
+    text-decoration: none;
+    color: darkred;
+    border: 1px solid white;
+    padding: 5px 10px;
+    display: inline-block;
+ 
+}   
+
+/* add hover effect to nav links */
+nav a:hover {
+    nav a:focus {
+        background-color: darkgreen;
+        color: indigo;
+    }
