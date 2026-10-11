@@ -1,57 +1,31 @@
-/* this is a css comment */
+/* thi is a css comment */
 body {
+    background-color: darkblue;
     font-family: Arial, sans-serif;
-    font-size: 18px;
-    line-height: 1.5;
-    color: darkslateblue;
 }
+
+/* select elements for the header and footer */
 header, footer {
-    background-color: lightgray;
-    color: purple
-    padding: 20px;
-    text-align: center;
+    background-color: teal;
+    color: peachpuff;
 }
 
-/* dot means malik elayouti class */
-section.Malik Elayouti {
-    color: blue
-}
+    /* class of site title */
+    .site-title {
+        color: black
+    }
 
-.hobbies {
-    list-style-type: square;
-    margin-left: 20px;
-}
-
-.hobbies li:nith-child(odd) {
-    background-color: teal
-}
-
-/* id means gentleman id */
-#Gentleman {
+/* id selector for main content */
+#Gentlemen {
     box-shadow: 0 0 2px 1px black;
-
-    /* remove bullets from nav list */
-    nav ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-    }
 }
 
-/* remove underline from nav links and add background and border */
-nav a {
-    text-decoration: none;
-    color: darkred;
-    border: 1px solid white;
-    padding: 5px 10px;
-    display: inline-block;
- 
-}   
+/* bullet replacement */
+ul {
+    list-style-type: square;
+}
 
-/* add hover effect to nav links */
-nav a:hover {
-    nav a:focus {
-        background-color: darkgreen;
-        color: indigo;
-    }
-    
+/* updating hobby list */
+.hobbies li:nth-child(1) {
+    color: darkgreen
+}
