@@ -21,7 +21,7 @@ header, footer {
 }
 
 /* bullet replacement */
-ul {
+ul .hobbies {
     list-style-type: square;
 }
 
