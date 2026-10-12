@@ -23,6 +23,7 @@ header, footer {
 /* bullet replacement */
 ul .hobbies {
     list-style-type: square;
+    color: darkblue;
 }
 
 /* updating hobby list */
