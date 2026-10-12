@@ -6,8 +6,8 @@ body {
 
 /* select elements for the header and footer */
 header, footer {
-    background-color: teal;
-    color: peachpuff;
+    background-color: peachpuff;
+    color: white;
 }
 
     /* class of site title */
