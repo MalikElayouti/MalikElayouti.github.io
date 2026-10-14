@@ -22,15 +22,17 @@ header, footer {
     box-shadow: 0 0 2px 1px black;
 }
 
-/* bullet replacement */
+/* bullet replacement ro squares */
 ul .hobbies {
     list-style-type: square;
     color: darkblue;
 }
 
 /* updating hobby list */
-.hobbies li:nth-child(1) {
+.hobbies li:nth-child(1)
+.hobbies li:nth-child (2) {
     color: darkgreen
+   
 }
 
 /* remove bullets*/
@@ -43,7 +45,7 @@ a {
     text-decoration: none;
 }
 
-/* change the backgeround color of the links and focus state */
+/* change the background color of the links and focus state */
 a:hover, 
 a:focus{
     background-color: lightblue;
