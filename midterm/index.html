@@ -6,13 +6,82 @@
     <title>Elay midterm</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
-<body>
-    <!-- header with h1 on top of image -->
-<header>
-    <h1></h1>
-    <img src="" alt="">
-</header>
+<body>    
+<!-- set width, center the element -->
+<article class="lego">
+<div class="wrapper">
+    <header>
+        <h1>The world of Bricks</h1>
+        <img src="/images/lego.jpg" alt="" id="lego"> 
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Story</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <article>
+        <img src="/images/lego.jpg" alt="" id="lego1">
+   <h2>What is lego</h2>
+       <p>What is a lego? Lego, also known as the danish phrase for leg godt is a line of plastic construction toys made of colorful pieces.</p>
+       <p>The origin name for lego is known as "Play Well". Founded in 1932 by Ole Kirk Christiansen in Billund, Denmark, the company orignally started selling wooden toys before launching the well known interlocking bricks we know today. </p>
+       <p>Around the 60s and 70s, the brand would ultimately keep growing and growing, with the first Lego land opening in 1968. Lego would also be getting more popular in the united states as well, with specific themed sets, such as space, castle, and the introduction of the classic minifigures.</p>
+       <p>In 1999, lego would go on to work with lisensed partnerships, such as Star Wars, and movie/TV show franchises. It is safe to say, because of all these, and the expainsion to different brands and franchises, it would go on to help lego grow in the the world's largest toy manufactuer.</p>
+    </article>
+    <!--Article with text around image-->
+    <ul class="facts">
+       <li>Lego originally started as a wooden toy company, even selling magnets, until in 1949, where they begun testing the plastic brick.</li>
+       <li>Despite not being a car company, Lego is one of the largest tire manifactuers in the world.</li>
+       <li>There are roughly 8 billion lego minifigures in the world, which is damn near close to the human population.</li>
+       <li>Apart from Star Wars, Lego's other main partnerships include DC, Mario, Marvel, Harry Potter, Lord Of The Rings, Pokemon, Jurrasic Park, and more.</li>
+    </ul>
+    <form action="#" method="post">
+        <h3>Contact</h3>
 
-      <!-- article with text around image --> 
+        <!--Name-->
+
+        <div>
+            <label for="yourname">Name:</label>    
+            <input type="text" id="yourname" name="yourname" placeholder="Type your name here">
+        </div>
+
+        <!--Email-->
+           
+        <div>
+            <label for="youremail">Email: </label>
+            <input type="email" id="youremail" name="youremail" placeholder="Type your Email here">
+         </div>
+
+         <!--Number-->
+
+         <div>
+            <label for="yournumber">Number: </label>
+            <input type="Number" id="yournumber" name="yournumber" placeholder="Type your number here">
+        </div>
+
+        <div class="radio-group">
+            <p>would you possibly be interested in going to the actual Lego store to purchase bricks?</p>
+        
+            <label>
+                Yes <input type="radio" name="buying-legos" value="yes">
+            </label>
+
+            <label>
+                No <input type="radio" name="buying-legos" value="no">
+            </label>
+
+            <label>
+                Perhaps <input type="radio" name="buying-legos" value="perhaps">
+            </label>
+         </div>
+         
+         <!--Button-->
+         <button type="submit">send</button> 
+    </form>
+    <footer>
+        <p>Copyright 2026 Unofficial LEGO Bricks</p>
+    </footer>
+</article>
 </body>
 </html>
