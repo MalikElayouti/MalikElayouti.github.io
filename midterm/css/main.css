@@ -1,7 +1,7 @@
 /* this is a css comment */
 body {
    font-size: larger;
-   line-height: 1.5;
+   line-height: 1.3;
    color: black;
    /* add background image and color here */
    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -40,12 +40,6 @@ article img {
     float: right;
 }
 
-header {
-    /* make image responsive */
-    max-width: 670px;
-    height: auto;
-}
-
 h1 {
     position: relative;
     top: 60px;
@@ -59,9 +53,15 @@ form {
     margin: 15px;
 }
 
-#lego {
-    width: 600px;
-    height: 200px;
+header {
+width:100%;
+height: 300px;
+background-image: url('/images/lego.jpg');
+background-size: 100% 100%;
+background-position: center;
+background-repeat: no-repeat;
+justify-content: center;
+align-items: center;
 }
 
 #lego1 {
